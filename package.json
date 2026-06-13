@@ -1,0 +1,20 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "quite clear from the name, its a reataurant page 🤣",
+  "homepage": "https://github.com/damil-adeniyi/Restaurant-Page#readme",
+  "bugs": {
+    "url": "https://github.com/damil-adeniyi/Restaurant-Page/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damil-adeniyi/Restaurant-Page.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
