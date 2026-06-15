@@ -26,7 +26,7 @@ body {
 header {
     background-color: var(--primary-color);
     color: white;
-    padding: 1rem;
+    padding: 40px 10px;
     text-align: center;
 }
 
@@ -39,9 +39,11 @@ header nav {
 header nav button {
     background: none;
     border: none;
+    font-family: 'Courier New', Courier, monospace;
     color: var(--secondary-color);
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
+    padding: 10px 20px;
 }
 
 #content .wrapper{
@@ -49,7 +51,7 @@ header nav button {
     justify-content: center;
     align-items: center;
     gap: 20px;
-    width: 80%;
+    width: 90%;
     padding: 50px 0;
 }
 
@@ -76,6 +78,10 @@ header nav button {
 }
 
 #content .hero .hero-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     width: 80%;
 }
 
@@ -83,6 +89,7 @@ header nav button {
     font-size: 4.5rem;
     text-align: center;
     line-height: 1;
+    width: 60%;
 }
 
 #content .hero p {
@@ -111,15 +118,16 @@ header nav button {
 #content .about .about-text h2{ 
     color: var(--primary-color); 
     font-size: 2.5rem;
+    text-align: center;
     border-bottom: 2px solid var(--primary-color);
-    width: fit-content;
+    /* width: fit-content; */
 }
 
 #content .about .about-text p{
     color: var(--primary-color); 
     font-size: 1rem;
     line-height: 1.2;
-    width: 80%;
+    text-align: center;
 }
 
 #content .about .about-img{
@@ -253,7 +261,7 @@ header nav button {
 /* contact section */
 
 #content .contact {
-    background-color: var(--secondary-color);
+    background-color: #887575;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -267,7 +275,7 @@ header nav button {
 }
 
 #content .contact .contact-info h2{
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 2.5rem;
     width: fit-content;
 }
@@ -286,13 +294,12 @@ header nav button {
 }
 
 #content .contact .contact-body-right, #content .contact .contact-body-left  {
-    width: 50%;
+    width: 100%;
 }
 
 
 #content .contact .contact-items {
     display: flex;
-    flex-direction: column;
     gap: 10px;
 }
 
@@ -301,7 +308,7 @@ header nav button {
 }
 
 #content .contact .contact-item h3{
-    color: var(--primary-color);
+    color: var(--secondary-color);
     font-size: 1.25rem;
     width: fit-content;
     margin-right: 10px;
@@ -342,8 +349,16 @@ header nav button {
         gap: 10px;
     }
 
+    #content .contact .contact-items {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+
     #content .menu .menus .menu-item {
-        width: 100%;
+        width: 300px;
+        
     }
 
     #content .menu .menu-text p {
@@ -356,6 +371,7 @@ header nav button {
 
     #content .hero h1 {
         font-size: 3rem;
+        width: 100%;
     }
 
     #content .contact .contact-body {
@@ -367,4 +383,8 @@ header nav button {
     #content .contact .contact-body-right, #content .contact .contact-body-left {
         width: 100%;
     }
+
+    header nav button {
+    font-size: 1rem;
+}
 }
